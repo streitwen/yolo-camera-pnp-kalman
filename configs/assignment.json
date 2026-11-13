@@ -1,0 +1,18 @@
+{
+  "model": "models/best.pt",
+  "calibration": "configs/camera_params.json",
+  "conf": 0.25,
+  "iou": 0.7,
+  "imgsz": 640,
+  "armor_width_mm": 224.0,
+  "armor_height_mm": 54.0,
+  "corner_order": "TL,BL,BR,TR",
+  "pnp_method": "ippe",
+  "max_reprojection_error_px": 20.0,
+  "kalman_process_noise": 800.0,
+  "kalman_measurement_noise_mm": 25.0,
+  "kalman_gate_threshold": 25.0,
+  "kalman_jump_reset_mm": 1000.0,
+  "prediction_seconds": 0.2,
+  "target_lost_reset_s": 1.0
+}

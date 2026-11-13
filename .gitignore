@@ -1,0 +1,24 @@
+# Python
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# 模型、原始视频和运行产物
+models/*.pt
+models/*.onnx
+models/*.torchscript
+models/*.engine
+data/*
+!data/.gitkeep
+results/*
+!results/.gitkeep
+
+# 编辑器与系统文件
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
